@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿double a;
+double b;
+a = -9;
+b = -3;
+
+if (a > b)
+{
+    Console.WriteLine("Max = ");
+    Console.WriteLine(a);
+    Console.WriteLine("Min = ");
+    Console.WriteLine(b);
+}
+else
+{
+    Console.WriteLine("Max = ");
+    Console.WriteLine(b);
+    Console.WriteLine("Min = ");
+    Console.WriteLine(a);
+}
